@@ -31,6 +31,8 @@ jobs:
           pip install pytz
           pip install telebot pymongo aiohttp
           pip install pymongo python-telegram-bot pyTelegramBotAPI certifi
+          pip install flask
+          pip3 install flask
 
       - name: Set Execute Permissions
         run: chmod +x * && chmod +x bgmi
